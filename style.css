@@ -121,3 +121,10 @@ div {
 #title {
 	color: azure;
 }
+
+#button {
+	border-radius: 10px;
+	background: rgba(64, 193, 64, 0.797);
+	display: absolute;
+	bottom: 0;
+}
