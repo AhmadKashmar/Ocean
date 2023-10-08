@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="island-container">
+			<div class="island island-hover" onclick="ZoomIn(this, 0)">
+				Island 1
+				<p>Tidal Energy</p>
+				<p>Wave Energy</p>
+			</div>
+			<div class="island island-hover" onclick="ZoomIn(this, 1)">
+				Island 2
+				<p>Wind Energy</p>
+				<p>Solar Farms</p>
+			</div>
+			<div class="island island-hover" onclick="ZoomIn(this, 2)">
+				kinetic Island
+				<p>Osmotic Power</p>
+				<p>HKE</p>
+			</div>
+			<div class="island island-hover" onclick="ZoomIn(this, 3)">
+				Sub Island
+				<p>OCE</p>
+				<p>Underwater Kites</p>
+			</div>
+			<div class="island island-hover" onclick="ZoomIn(this, 4)">
+				Delta Island
+				<p>OTEC</p>
+				<p>SGP</p>
+			</div>
+		</div>
+		<div
+			class="island-details"
+			style="background-image: url('photos/Deep.png')"
+		>
+			<h1 id="title"></h1>
+			<div class="data-container">
+				<h3 id="subtitle"></h3>
+				<div class="data-paragraphs">
+					<p id="data1" class="data">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Cumque ad voluptatibus temporibus nesciunt accusamus
+						quasi debitis omnis veritatis, incidunt, blanditiis
+						iusto ut fuga dicta. Quod quasi velit ad aliquam
+						exercitationem?
+					</p>
+					<p id="data2" class="data">
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						elit. Rem delectus sint animi nemo quaerat ratione eum
+						amet autem? Quo quaerat dolores ipsa dolor quis sit
+						earum debitis accusamus nihil consequatur.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
